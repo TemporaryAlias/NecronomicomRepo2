@@ -8,16 +8,7 @@ public class WindowGraph : MonoBehaviour
     [SerializeField] private Sprite circleSprite;
     private RectTransform graphContainer;
     public List<int> valueList = new List<int>() {};
-
-    private void Awake()
-    {
-        graphContainer = transform.Find("GraphContainer").GetComponent<RectTransform>();
-        ShowGraph(valueList);
-    }
-
-    private void Update()
-    {
-    }
+    [SerializeField] PlayerBehaviour player;
 
     private void CreateCircle(Vector2 anchoredPosition)
     {
@@ -42,5 +33,16 @@ public class WindowGraph : MonoBehaviour
             float yPosition = (valueList[i] / yMaximum) * graphHeight * 5;
             CreateCircle(new Vector2(xPosition, yPosition));
         }
+    }
+
+    public void Update()
+    {
+        valueList[0] = Mathf.RoundToInt(player.benevolence);
+        valueList[1] = Mathf.RoundToInt(player.malice);
+        valueList[2] = Mathf.RoundToInt(player.mystique);
+        graphContainer = transform.Find("GraphContainer").GetComponent<RectTransform>();
+
+
+        ShowGraph(valueList);
     }
 }
