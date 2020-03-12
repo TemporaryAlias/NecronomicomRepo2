@@ -15,6 +15,8 @@ public class PlayerBehaviour : MonoBehaviour {
 
     [SerializeField] SpriteRenderer playerIcon;
 
+    [SerializeField] List<string> tweetlist = new List<string>();
+
     Transform currentPos;
 
     int currentLocationIndex;
@@ -208,6 +210,65 @@ public class PlayerBehaviour : MonoBehaviour {
 
         return imageToReturn;
     }
+
+    public List<string> gettweetsforcreature()
+    {
+        List<string> tweets = new List<string>();
+        switch (chosenAction)
+        {
+            case PlayerAction.BENEV:
+                for(int i=0; i < 5; i++)
+                {
+                 int choice= Mathf.RoundToInt( Random.Range(0, 10));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+
+            case PlayerAction.MALICE:
+                for (int i = 0; i < 5; i++)
+                {
+                    int choice = Mathf.RoundToInt(Random.Range(9, 20));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+
+            case PlayerAction.MYST:
+                for (int i = 0; i < 5; i++)
+                {
+                    int choice = Mathf.RoundToInt(Random.Range(19, 30));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+
+            case PlayerAction.FAILURE:
+                for (int i = 0; i < 5; i++)
+                {
+                    int choice = Mathf.RoundToInt(Random.Range(29, 40));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+
+            case PlayerAction.CAPTURED:
+                for (int i = 0; i < 5; i++)
+                {
+                    int choice = Mathf.RoundToInt(Random.Range(39, 50));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+
+            default:
+                for (int i = 0; i < 5; i++)
+                {
+                    int choice = Mathf.RoundToInt(Random.Range(-1, 50));
+                    tweets.Add(tweetlist[choice]);
+                }
+                break;
+        }
+
+        return tweets;
+    }
+
+
 
     public void IndicateBordom(bool boredOfMalice, bool boredOfBenev, bool boredOfMyst) {
         if (boredOfBenev)

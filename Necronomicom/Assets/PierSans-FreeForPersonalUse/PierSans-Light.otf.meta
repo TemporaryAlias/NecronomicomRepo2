@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: edc24db57e4e51c498a033a18d1a84c5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pier Sans
+  fontNames:
+  - Pier Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5c6b02905ea3c8645afe3063b218a3a3, type: 3}
+  - {fileID: 12800000, guid: e28e39d2aa96ca14c8ec84bb2bd4c8fa, type: 3}
+  - {fileID: 12800000, guid: 720c1b034ef889244bd5123f0ca0af69, type: 3}
+  - {fileID: 12800000, guid: 49157d44ff6e0d9449be75c4b4763943, type: 3}
+  - {fileID: 12800000, guid: 6ae37e25f1a444e48a3fba6145a40166, type: 3}
+  - {fileID: 12800000, guid: ba1b6267b9c8c2a4eacf5e2a38325432, type: 3}
+  - {fileID: 12800000, guid: 9af574ad0ee40644898205182ca0e4d3, type: 3}
+  - {fileID: 12800000, guid: 329399adf0b17dd4d8d65b529a865248, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

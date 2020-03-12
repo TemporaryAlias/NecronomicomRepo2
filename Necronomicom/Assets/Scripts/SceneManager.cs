@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SceneManager : MonoBehaviour {
 
@@ -21,6 +22,8 @@ public class SceneManager : MonoBehaviour {
 
     [SerializeField] List<LocationBehaviour> locations = new List<LocationBehaviour>();
 
+    [SerializeField] List<TextMeshProUGUI> tweetcontainer = new List<TextMeshProUGUI>();
+
     [SerializeField] GameObject outcomesPanel, statsPanel;
 
     [SerializeField] Image backgroundImage, monsterImage, reactionImage;
@@ -28,6 +31,10 @@ public class SceneManager : MonoBehaviour {
     [SerializeField] float globalMaliceMult, globalMystMult, globalBenevMult;
 
     [SerializeField] int bordomThreshold;
+
+    [SerializeField] TextMeshProUGUI txt = new TextMeshProUGUI();
+
+    [SerializeField] List<string> globaltweetlines = new List<string>();
 
     int currentPlayerIndex, maliceActionCount, benevActionCount, mystActionCount;
 
@@ -130,13 +137,17 @@ public class SceneManager : MonoBehaviour {
         backgroundImage.sprite = players[currentPlayerIndex].chosenLocation.backgroundImage;
         monsterImage.sprite = players[currentPlayerIndex].GetMonsterPose();
         reactionImage.sprite = players[currentPlayerIndex].GetReactionImage();
+        for(int i = 0; i < 5; i++)
+        {
+            tweetcontainer[i].text = players[currentPlayerIndex].gettweetsforcreature()[i];
+        }
+
     }
 
     void CalculateReward() {
         switch (players[currentPlayerIndex].chosenAction) {
             case PlayerBehaviour.PlayerAction.BENEV:
                 players[currentPlayerIndex].benevolence += players[currentPlayerIndex].chosenLocation.InfluenceReward(globalBenevMult);
-
                 benevActionCount++;
                 break;
 
@@ -170,18 +181,21 @@ public class SceneManager : MonoBehaviour {
             globalBenevMult = 0.5f;
 
             benev = true;
+            txt.text = globaltweetlines[0];
         }
 
         if (maliceActionCount >= bordomThreshold) {
             globalMaliceMult = 0.5f;
 
             malice = true;
+            txt.text = globaltweetlines[1];
         }
 
         if (mystActionCount >= bordomThreshold) {
             globalMystMult = 0.5f;
 
             myst = true;
+            txt.text = globaltweetlines[2];
         }
 
         foreach (PlayerBehaviour player in players) {

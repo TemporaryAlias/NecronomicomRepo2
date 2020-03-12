@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LocationBehaviour : MonoBehaviour {
 
@@ -15,6 +16,10 @@ public class LocationBehaviour : MonoBehaviour {
     [SerializeField] float baseInfluenceReward, requiredInfluence, highPopMultiplier, criticalPopMultiplier;
 
     [SerializeField] int highPopThreshold, criticalPopulation, maxPopulation;
+
+    [SerializeField] TextMeshProUGUI tweet;
+
+    [SerializeField] List<string> name = new List<string>();
 
     public bool InfluenceCheck(float influence) {
         if (influence < requiredInfluence) {
@@ -49,6 +54,7 @@ public class LocationBehaviour : MonoBehaviour {
             highPopSprite.SetActive(true);
             lowCatchChanceSprite.SetActive(true);
             highCatchChanceSprite.SetActive(false);
+            tweet.text = name[1];
         } else if (population < highPopThreshold) {
             rewardMultiplier = 1f;
             captureChance = 0;
@@ -56,6 +62,7 @@ public class LocationBehaviour : MonoBehaviour {
             highPopSprite.SetActive(false);
             lowCatchChanceSprite.SetActive(false);
             highCatchChanceSprite.SetActive(false);
+            tweet.text = name[0];
         } else if (population >= criticalPopulation) {
             rewardMultiplier = criticalPopMultiplier;
             captureChance = 50;
@@ -63,6 +70,7 @@ public class LocationBehaviour : MonoBehaviour {
             highPopSprite.SetActive(true);
             lowCatchChanceSprite.SetActive(false);
             highCatchChanceSprite.SetActive(true);
+            tweet.text = name[2];
         }
     }
 
