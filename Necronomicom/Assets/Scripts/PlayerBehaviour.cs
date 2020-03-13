@@ -17,6 +17,12 @@ public class PlayerBehaviour : MonoBehaviour {
 
     [SerializeField] List<string> tweetlist = new List<string>();
 
+    [SerializeField] List<string> title = new List<string>();
+
+    [SerializeField] List<string> twitternames = new List<string>();
+
+    public string titleselection;
+
     Transform currentPos;
 
     int currentLocationIndex;
@@ -81,7 +87,7 @@ public class PlayerBehaviour : MonoBehaviour {
                     chosenLocation = locationList[currentLocationIndex].GetComponent<LocationBehaviour>();
 
                     chosenLocation.population += 2;
-
+                    titleselection = title[currentLocationIndex];
                     currentState = PlayerState.PICKING;
                 }
                 break;
@@ -251,7 +257,7 @@ public class PlayerBehaviour : MonoBehaviour {
             case PlayerAction.CAPTURED:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(39, 50));
+                    int choice = Mathf.RoundToInt(Random.Range(29, 40));
                     tweets.Add(tweetlist[choice]);
                 }
                 break;
@@ -259,13 +265,25 @@ public class PlayerBehaviour : MonoBehaviour {
             default:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(-1, 50));
+                    int choice = Mathf.RoundToInt(Random.Range(-1, 40));
                     tweets.Add(tweetlist[choice]);
                 }
                 break;
         }
 
         return tweets;
+    }
+
+    public List<string> namesforusers()
+    {
+        List<string> twitnames = new List<string>();
+          for (int i = 0; i < 6; i++)
+          {
+             int choice = Mathf.RoundToInt(Random.Range(0, 10));
+             twitternames.Add(twitternames[choice]);
+          }
+        
+        return twitternames;
     }
 
 

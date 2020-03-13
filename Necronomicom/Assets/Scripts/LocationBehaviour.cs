@@ -48,29 +48,32 @@ public class LocationBehaviour : MonoBehaviour {
 
     void PopulationCheck() {
         if (population >= highPopThreshold && population < criticalPopulation) {
+            tweet.text = status[1];
             rewardMultiplier = highPopMultiplier;
             captureChance = 25;
-
+            
             highPopSprite.SetActive(true);
             lowCatchChanceSprite.SetActive(true);
             highCatchChanceSprite.SetActive(false);
-            tweet.text = status[1];
+            
         } else if (population < highPopThreshold) {
+            tweet.text = status[0];
             rewardMultiplier = 1f;
             captureChance = 0;
-
+            
             highPopSprite.SetActive(false);
             lowCatchChanceSprite.SetActive(false);
             highCatchChanceSprite.SetActive(false);
-            tweet.text = status[0];
+            
         } else if (population >= criticalPopulation) {
+            tweet.text = status[2];
             rewardMultiplier = criticalPopMultiplier;
             captureChance = 50;
-
+            
             highPopSprite.SetActive(true);
             lowCatchChanceSprite.SetActive(false);
             highCatchChanceSprite.SetActive(true);
-            tweet.text = status[2];
+            
         }
     }
 

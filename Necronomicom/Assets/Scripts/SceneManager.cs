@@ -24,7 +24,9 @@ public class SceneManager : MonoBehaviour {
 
     [SerializeField] List<TextMeshProUGUI> tweetcontainer = new List<TextMeshProUGUI>();
 
-    [SerializeField] GameObject outcomesPanel, statsPanel;
+    [SerializeField] List<TextMeshProUGUI> namecontainer = new List<TextMeshProUGUI>();
+
+    [SerializeField] GameObject outcomesPanel, statsPanel,endgamepanel;
 
     [SerializeField] Image backgroundImage, monsterImage, reactionImage;
 
@@ -34,9 +36,13 @@ public class SceneManager : MonoBehaviour {
 
     [SerializeField] TextMeshProUGUI txt = new TextMeshProUGUI();
 
+    [SerializeField] TextMeshProUGUI title;
+
     [SerializeField] List<string> globaltweetlines = new List<string>();
 
-    int currentPlayerIndex, maliceActionCount, benevActionCount, mystActionCount;
+    [SerializeField] List<WindowGraph> graphupdater = new List<WindowGraph>();
+
+    int currentPlayerIndex, maliceActionCount, benevActionCount, mystActionCount,turncounter;
 
     GameState currentGameState;
 
@@ -123,23 +129,46 @@ public class SceneManager : MonoBehaviour {
 
     IEnumerator CheckForWin() {
         //see if anyone wins
-
+        if (turncounter >= 10)
+        {
+            endgamepanel.SetActive(true);
+            
+        }
         //if not....
-
-        yield return new WaitForSeconds(1);
-
-        ChangeGameState(GameState.MAP);
+        else
+        {
+            yield return new WaitForSeconds(3);
+            for (int i = 0; i < graphupdater.Count; i++)
+            {
+                graphupdater[i].destroyplease();
+            }
+            
+            turncounter++;
+            ChangeGameState(GameState.MAP);
+        }
     }
 
     void CreateImage() {
         CalculateReward();
 
         backgroundImage.sprite = players[currentPlayerIndex].chosenLocation.backgroundImage;
+
         monsterImage.sprite = players[currentPlayerIndex].GetMonsterPose();
+
         reactionImage.sprite = players[currentPlayerIndex].GetReactionImage();
+
+        title.text = players[currentPlayerIndex].titleselection;
+
+        graphupdater[currentPlayerIndex].graph();
+
         for(int i = 0; i < 5; i++)
         {
             tweetcontainer[i].text = players[currentPlayerIndex].gettweetsforcreature()[i];
+        }
+
+        for(int i = 0; i < 6; i++)
+        {
+            namecontainer[i].text = players[currentPlayerIndex].namesforusers()[i];
         }
 
     }
