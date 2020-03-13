@@ -13,7 +13,7 @@ public class PlayerBehaviour : MonoBehaviour {
 
     [SerializeField] List<GameObject> locationList = new List<GameObject>();
 
-    [SerializeField] SpriteRenderer playerIcon;
+    [SerializeField] SpriteRenderer playerIcon, arrow1Icon, arrow2Icon, spaceIcon;
 
     [SerializeField] List<string> benevTweetlist = new List<string>();
     [SerializeField] List<string> maliceTweetlist = new List<string>();
@@ -49,6 +49,9 @@ public class PlayerBehaviour : MonoBehaviour {
         chosenLocation = null;
 
         playerIcon.enabled = false;
+        arrow1Icon.enabled = false;
+        arrow2Icon.enabled = false;
+        spaceIcon.enabled = false;
 
         captured = false;
     }
@@ -65,6 +68,10 @@ public class PlayerBehaviour : MonoBehaviour {
                 }
 
                 playerIcon.enabled = true;
+                arrow1Icon.enabled = true;
+                arrow2Icon.enabled = true;
+                spaceIcon.enabled = true;
+
                 statIconsHolder.SetActive(false);
 
                 if (Input.GetKeyDown(KeyCode.RightArrow)) {
@@ -99,12 +106,16 @@ public class PlayerBehaviour : MonoBehaviour {
             case PlayerState.PICKING:
                 statIconsHolder.SetActive(true);
 
+                spaceIcon.enabled = false;
+
                 if (Input.GetKeyDown(KeyCode.RightArrow)) {
+                    float totalInfluence = benevolence + malice + mystique;
+
                     if (chosenLocation.CaptureCheck()) {
                         chosenAction = PlayerAction.CAPTURED;
 
                         captured = true;
-                    } else if (chosenLocation.InfluenceCheck(benevolence)) {
+                    } else if (chosenLocation.InfluenceCheck(totalInfluence)) {
                         chosenAction = PlayerAction.BENEV;
                     } else {
                         chosenAction = PlayerAction.FAILURE;
@@ -116,11 +127,13 @@ public class PlayerBehaviour : MonoBehaviour {
                 }
 
                 if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+                    float totalInfluence = benevolence + malice + mystique;
+
                     if (chosenLocation.CaptureCheck()) {
                         chosenAction = PlayerAction.CAPTURED;
 
                         captured = true;
-                    } else if (chosenLocation.InfluenceCheck(mystique)) {
+                    } else if (chosenLocation.InfluenceCheck(totalInfluence)) {
                         chosenAction = PlayerAction.MYST;
                     } else {
                         chosenAction = PlayerAction.FAILURE;
@@ -132,11 +145,13 @@ public class PlayerBehaviour : MonoBehaviour {
                 }
 
                 if (Input.GetKeyDown(KeyCode.UpArrow)) {
+                    float totalInfluence = benevolence + malice + mystique;
+
                     if (chosenLocation.CaptureCheck()) {
                         chosenAction = PlayerAction.CAPTURED;
 
                         captured = true;
-                    } else if (chosenLocation.InfluenceCheck(malice)) {
+                    } else if (chosenLocation.InfluenceCheck(totalInfluence)) {
                         chosenAction = PlayerAction.MALICE;
                     } else {
                         chosenAction = PlayerAction.FAILURE;
@@ -152,6 +167,9 @@ public class PlayerBehaviour : MonoBehaviour {
 
             case PlayerState.WAITING:
                 playerIcon.enabled = false;
+                arrow1Icon.enabled = false;
+                arrow2Icon.enabled = false;
+
                 statIconsHolder.SetActive(false);
                 break;
         }

@@ -1212,6 +1212,16 @@ PrefabInstance:
       propertyPath: status.Array.data[2]
       value: The Neighbourhood Watch is staking out the suburbs!
       objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: highPopThreshold
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: criticalPopulation
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5934413978171444316, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1969,6 +1979,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
     - target: {fileID: 4198317086021237218, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2050,6 +2090,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d81e8016cc31a06449febb27cc2a9df7,
         type: 3}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: locationList.Array.size
@@ -2093,7 +2163,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: failTweetlist.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -2981,6 +3051,46 @@ PrefabInstance:
         type: 3}
       propertyPath: failTweetlist.Array.data[0]
       value: That dumb Mothman really though he could... #whatever
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[3]
+      value: If you don't have any influence... are you even a monster? #deep #tryharder
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[4]
+      value: Mothman... Mothman? Never heard of him #nobody
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5568628
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
@@ -3986,6 +4096,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
     - target: {fileID: 4198317086021237218, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4067,6 +4207,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 54fc1511ff89a464ca6c03a0c83c5cfc,
         type: 3}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: locationList.Array.size
@@ -4110,7 +4280,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: failTweetlist.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -4997,6 +5167,47 @@ PrefabInstance:
       propertyPath: failTweetlist.Array.data[0]
       value: That dumb Wendigo really though she could... #whatever
       objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[3]
+      value: The scariest thing about Wendigo is waiting for her to Wendi-go somewhere
+        else #gross #loser
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[4]
+      value: If you don't have any influence... are you even a monster? #deep #tryharder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.20392157
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
 --- !u!1 &508975855
@@ -5864,6 +6075,16 @@ PrefabInstance:
         type: 3}
       propertyPath: status.Array.data[2]
       value: The desert has become a monster hot spot!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: highPopThreshold
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: criticalPopulation
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5934413978171444316, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
         type: 3}
@@ -10850,6 +11071,11 @@ PrefabInstance:
     - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
         type: 3}
       propertyPath: highPopThreshold
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: criticalPopulation
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5934413978171444316, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
@@ -16647,6 +16873,16 @@ PrefabInstance:
       propertyPath: status.Array.data[2]
       value: The hills are full of hikers... and security!
       objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: highPopThreshold
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: criticalPopulation
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5934413978171444316, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17976,6 +18212,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.55050856
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640383745597927524, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48246706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.55050856
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207258310581950003, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48246706
+      objectReference: {fileID: 0}
     - target: {fileID: 4198317086021237218, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18051,6 +18317,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerChip_GOATMAN
       objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.55050856
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007625143158430390, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48246706
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.55050856
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176964929888540786, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48246706
+      objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: locationList.Array.size
@@ -18094,7 +18390,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: failTweetlist.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -18998,6 +19294,46 @@ PrefabInstance:
       value: Who even IS Goatman??? Maybe if he had more rep, people would actually
         notice him :P #loser #wannabe
       objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[3]
+      value: If you don't have any influence... are you even a monster? #deep #tryharder
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[4]
+      value: Goatman? Looks like a mediocre fursuit to me :/
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.7372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113415179722192038, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.55050856
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972977803824628400, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.48246706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
 --- !u!1001 &7160403950974897811
@@ -19077,6 +19413,16 @@ PrefabInstance:
         type: 3}
       propertyPath: status.Array.data[2]
       value: The woods are PACKED! Security is getting tight...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: highPopThreshold
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277807125751238332, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
+        type: 3}
+      propertyPath: criticalPopulation
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5934413978171444316, guid: ae5b0e3bed23f894ca4b715ed2a4cc88,
         type: 3}
