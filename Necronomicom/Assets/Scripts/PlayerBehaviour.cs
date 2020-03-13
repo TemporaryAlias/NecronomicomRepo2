@@ -15,7 +15,11 @@ public class PlayerBehaviour : MonoBehaviour {
 
     [SerializeField] SpriteRenderer playerIcon;
 
-    [SerializeField] List<string> tweetlist = new List<string>();
+    [SerializeField] List<string> benevTweetlist = new List<string>();
+    [SerializeField] List<string> maliceTweetlist = new List<string>();
+    [SerializeField] List<string> mystTweetlist = new List<string>();
+    [SerializeField] List<string> defeatTweetlist = new List<string>();
+    [SerializeField] List<string> failTweetlist = new List<string>();
 
     [SerializeField] List<string> title = new List<string>();
 
@@ -225,40 +229,40 @@ public class PlayerBehaviour : MonoBehaviour {
             case PlayerAction.BENEV:
                 for(int i=0; i < 5; i++)
                 {
-                 int choice= Mathf.RoundToInt( Random.Range(0, 10));
-                    tweets.Add(tweetlist[choice]);
+                 int choice= Mathf.RoundToInt( Random.Range(0, benevTweetlist.Count));
+                    tweets.Add(benevTweetlist[choice]);
                 }
                 break;
 
             case PlayerAction.MALICE:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(9, 20));
-                    tweets.Add(tweetlist[choice]);
+                    int choice = Mathf.RoundToInt(Random.Range(0, maliceTweetlist.Count));
+                    tweets.Add(maliceTweetlist[choice]);
                 }
                 break;
 
             case PlayerAction.MYST:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(19, 30));
-                    tweets.Add(tweetlist[choice]);
+                    int choice = Mathf.RoundToInt(Random.Range(0, mystTweetlist.Count));
+                    tweets.Add(mystTweetlist[choice]);
                 }
                 break;
 
             case PlayerAction.FAILURE:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(29, 40));
-                    tweets.Add(tweetlist[choice]);
+                    int choice = Mathf.RoundToInt(Random.Range(0, failTweetlist.Count));
+                    tweets.Add(failTweetlist[choice]);
                 }
                 break;
 
             case PlayerAction.CAPTURED:
                 for (int i = 0; i < 5; i++)
                 {
-                    int choice = Mathf.RoundToInt(Random.Range(29, 40));
-                    tweets.Add(tweetlist[choice]);
+                    int choice = Mathf.RoundToInt(Random.Range(0, defeatTweetlist.Count));
+                    tweets.Add(defeatTweetlist[choice]);
                 }
                 break;
 
@@ -266,7 +270,7 @@ public class PlayerBehaviour : MonoBehaviour {
                 for (int i = 0; i < 5; i++)
                 {
                     int choice = Mathf.RoundToInt(Random.Range(-1, 40));
-                    tweets.Add(tweetlist[choice]);
+                    //tweets.Add(tweetlist[choice]);
                 }
                 break;
         }

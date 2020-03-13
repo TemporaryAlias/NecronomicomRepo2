@@ -2072,6 +2072,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
+      propertyPath: benevTweetlist.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.size
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
       propertyPath: locationList.Array.data[0]
       value: 
       objectReference: {fileID: 1867024828}
@@ -2406,37 +2431,37 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[0]
-      value: MOTH MAN seen in nearby desert!!!
+      value: MOTHMAN seen in nearby desert!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[1]
-      value: MOTH MAN arrived wandering at hills!!!
+      value: MOTHMAN spotted soaring through the hills!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[2]
-      value: Bug like creature spotted near woods!!!
+      value: Bug like creature spotted deep in the woods!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[3]
-      value: Elusive MOTH MAN spotted spotted near local airport ??!!!
+      value: Elusive MOTHMAN spotted IN SKIES near local airport?
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[4]
-      value: Craazy bug creature found near a local subarb!!
+      value: Crazy bug creature found near a local suburb!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[5]
-      value: Local MOTH MAN found scaling buildings !!!!
+      value: Local MOTHMAN found scaling buildings!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[6]
-      value: MOTH MAN found dashing through local highway !!!
+      value: MOTHMAN found speeding through local highway!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -2456,12 +2481,12 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[2]
-      value: Sarah Gergaud
+      value: Sarah
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[3]
-      value: John Healy
+      value: JonnyBoy
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -2476,22 +2501,486 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[6]
-      value: Kermit  DaFrog
+      value: Kermit D'Frog
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[7]
-      value: Sora Kingdomhearts
+      value: MonsterWatchOfficial
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[8]
-      value: Jesus Christ
+      value: XxX_CryptidFan_XxX
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[9]
       value: Kanye East
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[0]
+      value: '@DeviantArtGang, You guys should draw some art of the cute friendly
+        Mothman owo #MonsterPride '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[1]
+      value: '@GoodWyvern, You guys should make merch of the nice lovely Mothman.
+        #love #MothARMY'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[2]
+      value: '@ArghTeaEee The lovely new addition to our town, The Mothman has gained
+        quite the following! Their fans are taking over online!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[3]
+      value: '@BeesFeedUnsolved #HotOrNot? The new Mothman everyone''s been fanning
+        over will be joining social media @Mothman #follow4follow'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[4]
+      value: '#Mothman4EVA YASSSSSSSSSSSSSSSSSSS KING!!!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[5]
+      value: Local nice Mothman caught prior to this on camera giving flowers to
+        people #uwu #love
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[6]
+      value: Cuter than Goatman? Nicer than Santa Paws? The Mothman has been performing
+        good deeds for society. #Mothman4EVA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[7]
+      value: '@MonsterMash, Mothman is Love, Mothman is Life <3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[8]
+      value: '@Mothman You''re such a Queen babe <3 xoxoxoxoxoxxoxoo'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[9]
+      value: Mothman IS SO MUCH NICER THAN Mothman and Wendigo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[10]
+      value: I just moved into this town solely because of the Mothman.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[11]
+      value: '@Mothman SOMEBODY GET THIS BOI A LAMP! Lamps out for Mothman #Love
+        #Peace'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[12]
+      value: I love the Mothman so much, I want to put him in a jar #LampGang
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[13]
+      value: '@MothMoeFoe, We love Massive LEGEND Mothman himself. #Legend #iStan'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[14]
+      value: I'm so glad to live here, the mothman is epic, wow #nice
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[0]
+      value: Holy moly that Mothman sure is spoooooky OnO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[1]
+      value: '@Koomstar, SCARY MOTHMAN CAUGHT ON CAMERA #MonsterAlertNews'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[2]
+      value: '@MassiveLegend, OMG DIS GOATMAN BE SPOOKIN :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[3]
+      value: '@Everyone, Have ya''ll heard of the spooky Moth person man yoke going
+        around?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[4]
+      value: Been hearing a lot of rumours about a scary Moth or moth boi lurking
+        around. #spooki
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[5]
+      value: '@SuperSandLegend27, SCARY MOTHMAN LURKING IN TOWN! 100% REAL AND LEGIT!
+        FOLLOW+RT 4 chance to win my iPHone giveaway!! #Giveaway #paranormal.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[6]
+      value: Wanna know what's scarier than the Mothman terrorizing the town? Raid
+        Monster Legends is one of the most ambitious RPG...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[7]
+      value: '@Everyone I''m really scared now knowing there is a spooky Mothman
+        roaming around out to get us :c'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[8]
+      value: '@Kintober, HOW AM I SUPPOSED TO BE MAKING GAMES AT HOME KNOWING THERE
+        IS A SCARY MOTHMAN APPARENTLY IN OUR TOWN! #gamerlife'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[9]
+      value: '@Everyone, Attention ALL GAMERS! we need to stop this spooky Mothman,
+        they are 2spooky... do what you must. #GameOn'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[10]
+      value: '@ChillsYT BABY GOBBY WANT NEW VIDEO ON SPOOKY MOTHMAN! ME WANT TOP
+        5 SCARY MOTHMAN SIGHTINGS!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[11]
+      value: '@ChillsYT Honestly if I saw that damn Mothman in my living room I''d
+        stomp on it until it is a small brown stain.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[12]
+      value: '@ChillsYT Number 15, SCARY MOTHMAN! The last thing you''d want in your
+        town is a scary MOTHMAN but as it turns out that might be what you get.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[13]
+      value: Mothman refuses to respond to allegations! Is this because they can't
+        talk? or don't want to? #SpookyNews
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[14]
+      value: PLEASE HELP ME I'M BEING CHASED BY A MOTH PERSON MAN YOKE OH GOD OH
+        AGFASOIFOSAIFAOSFAS OOoOoaoaoOAAAAAHHH
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[15]
+      value: IT'S 6AM AND I'M BEING CHASED BY THE REAL LIFE MOTHMAN WHILE TRYING
+        TO PLAY MonstermonGO... I NEED A BREAK SMH #gamerlife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[16]
+      value: YO @EpicGamerGamerer2445 GOT KILLED BY THE MOTHMAN, F IN CHAT BOIS :C
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[17]
+      value: WHAT THE DUCK ISs TTHAT!;? HOLY WHACKOMOLY OMG MOTHMAN CHASIN ME DOWN
+        IT GONNA CATHC ME AAAoifosfoIOASIOFOSAF #dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[18]
+      value: THE MOTHMAN IS SO MEAN COMPARED TO GOATMAN AND WENDIGO #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[19]
+      value: I FLIPPING HATE THE DURTY MOTHMAN #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[20]
+      value: '@AngryMonsterGameNerd, THIS MONSTER SUCKS!1!! WHAT WERE THEY THINKING?
+        #NotMyMonster'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[21]
+      value: '@MothHunter1999, I''m going to destroy that scary Moth''s favourite
+        Lamp >:C #scaryman #spookyboi '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[0]
+      value: '@WebDriverTorso, Something mysterious caught on camera, could it be
+        a Mothman?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[1]
+      value: Apparently rumours going around about some mysterious entitiy that resembles
+        the Mothman.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[2]
+      value: '@MonsterLuvr1916 OMG QUEEN, CHECK THE NEWS! SOME MYSTERIOUS MOTHMAN
+        HAS BEEN REPORTED IN OUR AREA! #iWantToBelieve'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[3]
+      value: '@EssSeaPeaFoundation This is... intriguing, care to explain why a Mothman
+        is being spotted in our area? #3spooky5me'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[4]
+      value: '@KanyeEast, MYSTERIOUS MOTHMAN REPORTED IN THE WOODS? REAL OR FAKE???
+        Like+RT to find out!11!!!1!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[5]
+      value: '@Bigfoot, oooooooooooo mysterious!!!!11!!!111!!! #mothman #paranormal
+        #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[6]
+      value: '@BeterBarker GET ME PICTURES OF MOTHMAN! #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[7]
+      value: '@xxGlass0fWaterxx, What is the Mothman? Why is it here? Where''s it
+        gonna go next? What''s their gamertag? :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[8]
+      value: I don't KNOW WHAT I SAW BUT IT KINDA LOOKED LIKE A MOTHMAN???? :OOOOOOOOOOO
+        iNtErEsTiNg.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[9]
+      value: I found footprints outside earlier... could it belong to the Mothman's
+        feet everyone's talking about? #mysterious #unsolvedmystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[10]
+      value: '@iLoveMilkandBeans2, WHAT WAS THAT THING WE SAW??? ITS SHADOW KINDA
+        RESEMBLED THIS MYSTERIOUS MOTH PERSON THAT HAS BEEN RUMOURED ABOUT! #woah'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[11]
+      value: '@Everyone, Apparently the Mothman was caught afterwards walking home
+        singing...very mysterious... is it a fren or foe? O_O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[12]
+      value: 'HEY GUYS MONSTERSHORTSGAMER HERE, IN MY NEW VIDEO WE CHECK OUT THIS
+        NEW MYSTERIOUS MOTHMAN SIGHTING TO SEE IF IT''S REAL OR FAKE! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[13]
+      value: '@Mothman You sure are mysterious... are you good or bad? How are you
+        even using social media? #fake #reported'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[14]
+      value: '@FunniMonkey UH OH Mothman HAHA MYSTERIOUS, I THINK I DID A MYSTERY
+        UH OH #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[15]
+      value: '@DeltaRayquaza This Mothman is damn mysterious, you think you can take
+        it on in a best of 5? #monsterthrowdown'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[16]
+      value: '@DeltaRayquaza hAHa is this the new strange KI4 chArActER funni XDDDDDDDDDD
+        oh wait #NeverReleased'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[17]
+      value: "@PapaYepo HOLA AMIGO! \xBFC\xF3mo se dice Mothman en espa\xF1ol? \xBFC\xF3mo
+        se dice MISTERIOSO en espa\xF1ol?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[18]
+      value: '@ChillsYT Who would win? The gamer Ghost or the Mysterious Mysteroni
+        Mothman?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[19]
+      value: '@ChillsYT ME ME WANT VIDYA ME WANT NEW VIDEO ON MOTHMAN ME WANT TOP
+        15 MYSTERY SIGHTINGS YUMMY VIDEO :P'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[20]
+      value: "@WebTorsoDriver NICE TOP 500 MYSTERIOUS MOTHMAN SIGHTINGS VID BRO *kisses*
+        <33\xA3\xA3333!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[21]
+      value: '@BeesFeedUnsolved Scientists asked the Mothman what sound it makes!
+        What comes next may shock you! #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[22]
+      value: '@SpookyDoo, Is Mothman on OnlyScares?... Asking for a friend. Looking
+        to solve this mystery!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[23]
+      value: Unlike the Wendigo and stinky Goatman, THE MOTHMAN is actually interesting
+        and not just scary and uncool #epic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[24]
+      value: I called Mothman at 3AM???? #NotFake #Mystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[25]
+      value: '@EbicRapBattlesOfMonstery, who would win this unusually strange MOTH
+        BOI or the Goat MAN!?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[0]
+      value: 'BREAKING NEWS! THE MOTHMAN HAS BEEN CAUGHT AND ARRESTED??????? TUNE
+        IN TO FIND OUT WHY. #gameover '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[1]
+      value: What is up MonsterAlertNation, the Mothman has finally been caught!
+        Yes. Yes! YES YES!.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[2]
+      value: Yahoo! the Mothman was finally defeated!!!! YAHYAHYAHOOO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[3]
+      value: '@Everyone, The Mothman was finally caught???? Even Defeated??!?!?!
+        #bruh'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[4]
+      value: '@MonsterLuvr2441, I''m sorry to inform you but the Mothman has been
+        caught... F in chat.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[5]
+      value: '@Mothman, Haha stoopid monster lost git gud kiddo, peace out gamer
+        #gameover'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[6]
+      value: '@BeesFeedUnsolved, THE MONSTER HAS FINALLY BEEN CAUGHT??? Find out
+        more on our channel!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[7]
+      value: '#EpicFailOfTheWeek, DEFEAT! Mothman loses?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[8]
+      value: '@iLoveMilkandBeans2, CHECK ONLINE, A MONSTER WAS BROUGHT DOWN!!!!!!!1!!!!!!111!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[9]
+      value: '@iLoveMilkandBeans2, bruh, BROOOOO CHECK IT OUT, GUESS WHO GOT INTO
+        BIG TROUBLE TODAY? #EpicFail'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[10]
+      value: GAME OVER... or is it? Will the Mothman roam free again? #nah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[11]
+      value: Wee woo wee woo! EMERGENCY IN THE MONSTER HOUSE, The Mothman has gotten
+        into some serious trouble! Find out more tonight at 10pm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[12]
+      value: ' WEE WOO WEE WOO! Mothman defeated? is this the END OR IS IT? :O #no'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[13]
+      value: THE MYSTERY GANG HAS DONE IT AGAIN AND CAUGHT THE MOTHMAN. LET'S UNMASK
+        THIS MONSTER.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[14]
+      value: The Real Life Mothman Exposed? (Gone Wrong) Defeated? Jailtime? Death?
+        (Caught on Camera) #NotClickbait
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[2]
+      value: Who even IS Mothman??? Maybe if he had more rep, people would actually
+        notice him :P #loser #wannabe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[1]
+      value: Mothman should try make a name for himself before trying THIS stunt
+        again...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[0]
+      value: That dumb Mothman really though he could... #whatever
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
@@ -3600,6 +4089,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
+      propertyPath: benevTweetlist.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.size
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
       propertyPath: locationList.Array.data[0]
       value: 
       objectReference: {fileID: 1147601585}
@@ -3934,37 +4448,37 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[0]
-      value: Demon Creature found in woods !!!
+      value: Demon Creature found in deep in the woods!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[2]
-      value: DEMON CREATURE found near childrens suburb !!!
+      value: DEMON CREATURE found near children in the suburb!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[1]
-      value: WENDIGO take air in towns local airport
+      value: WENDIGO touches down at local airport?
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[3]
-      value: Demon found in local town !!!!
+      value: Demon found in local Town Center!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[4]
-      value: Local WENDIGO found crossing highway???!
+      value: Local WENDIGO found crossing highway?!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[5]
-      value: Demon seen near local desert!!!
+      value: Demon seen near local desert!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[6]
-      value: Weird Demon creature found on hilltop!!!
+      value: Weird Demon creature found on hilltop!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -3984,7 +4498,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[2]
-      value: 'Basil Lim '
+      value: MonsterVilleMoms
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -3994,17 +4508,17 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[4]
-      value: Harriet Upfucker
+      value: Harriet Epfaqer
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[5]
-      value: Rebecca Moore
+      value: Rebecca M
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[6]
-      value: Sophie Anderson
+      value: Sophie A
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -4020,6 +4534,468 @@ PrefabInstance:
         type: 3}
       propertyPath: twitternames.Array.data[9]
       value: Incognito Tab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[0]
+      value: '@DeviantArtGang, You guys should draw some art of the cute friendly
+        Wendigo owo #MonsterPride'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[1]
+      value: '@GoodWyvern, You guys should make merch of the nice lovely Wendigo.
+        #love #WendigoARMY'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[2]
+      value: '@ArghTeaEee The lovely new addition to our town, The Wendigo has gained
+        quite the following! Their fans are taking over online!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[3]
+      value: '@BeesFeedUnsolved #HotOrNot? The new Wendigo everyone''s been fanning
+        over will be joining social media @Wendigo #follow4follow '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[4]
+      value: YAAAAAAAAAAASSSSSSSSSSSSS!!!! #Wendigo4EVA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[5]
+      value: Local nice Wendigo caught on camera prior to this giving flowers to
+        people #uwu #love
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[6]
+      value: Cuter than Kurby? Nicer than Santa Paws? The Wendigo has been performing
+        good deeds for society. #Wendy4EVA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[7]
+      value: '@MonsterMash, Wendigo is Love, Wendigo is Life <3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[8]
+      value: '@Wendigo You''re such a Queen babe <3 xoxoxoxoxoxxoxoo'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[9]
+      value: Wendigo IS SO MUCH NICER THAN Mothman and Goatman.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[10]
+      value: I just moved into this town solely because of the Wendigo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[11]
+      value: The Wendigo should start a metal band, I'd support. #iStan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[12]
+      value: '@xxx_Beans0nToast_xxx , I love the Wendigo so much, words cannot describe,
+        I literally can''t #iStan #love'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[13]
+      value: WE STAN A TRUE QUEEN! LOVE! @Wendigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[14]
+      value: '@xxx_Beans0nToast_xxx , ya''ll better start appreciating the Wendigo,
+        absolute QUEEN #Queen'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[15]
+      value: '@x_D3STR0Y3R_0F_MILK_xx, Omg have you heard about this amazing Wendigo
+        this town has? what a queen'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[0]
+      value: Holy moly that Wendigo sure is spoooooky OnO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[1]
+      value: '@Koomstar, SCARY WENDIGO CAUGHT ON CAMERA #MonsterAlertNews'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[2]
+      value: '@MassiveLegend, OMG DIS WENDIGO BE SPOOKIN :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[3]
+      value: '@Everyone, Have ya''ll heard of the spooky demon Wendigo yoke going
+        around? #bruh'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[4]
+      value: Been hearing a lot of rumours about a scary Wendigo or apparition lurking
+        around. #iWantToBelieve
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[5]
+      value: '@ANGRYMONSTERNERD, SCARY WENDIGO LURKING IN TOWN! 100% REAL AND LEGIT!
+        FOLLOW+RT 4 chance to win my iPHone giveaway!! #Giveaway #paranormal. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[6]
+      value: Wanna know what's scarier than the Wendigo terrorizing the town? Raid
+        Monster Legends is one of the most ambitious RPG...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[7]
+      value: '@Everyone I''m really scared now knowing there is a spooky Wendigo
+        roaming around out to get us :c #helpme'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[8]
+      value: '@WebDriverTorso, HOW AM I SUPPOSED TO BE MAKING GAMES AT HOME KNOWING
+        THERE IS A SCARY WENDIGO APPARENTLY IN OUR TOWN! #gamer'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[9]
+      value: Attention ALL GAMERS, Scary Wendigo spotted... do what you must. #gamer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[10]
+      value: '@ChillsYT BABY GOBBY WANT NEW VIDEO ON SPOOKY WENDIGO! ME WANT TOP
+        5 SCARY WENDIGO SIGHTINGS!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[11]
+      value: '@ChillsYT Honestly if I saw that damn Wendigo in my living room I''d
+        stomp on it until it is a small brown stain.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[12]
+      value: '@ChillsYT Number 15, SCARY WENDIGO! The last thing you''d want in your
+        town in a scary Wendigo but as it turns out that might be what you get.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[13]
+      value: 'Wendigo does not want to respond to allegations! Is this because they
+        can''t talk? or don''t want to? #BreakingNewz '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[14]
+      value: PLEASE HELP ME I'M BEING CHASED BY A WENDIGO OH GOD OH AGFASOIFOSAIFAOSFAS
+        OOoOoaoaoOAAAAAHHH
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[15]
+      value: IT'S 6AM AND I'M BEING CHASED BY A WENDIGO WHILE TRYING TO PLAY MonstermonGO...
+        I NEED A BREAK SMH #gamerlife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[16]
+      value: YO @EpicGamerGamerer2445 GOT KILLED BY THE WENDIGO, F IN CHAT BOIS :C
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[17]
+      value: WHAT THE DUCK ISs TTHAT!;? HOLY WHACKOMOLY OMG WENDIGO CHASIN ME DOWN
+        IT GONNA CATHC ME AAAoifosfoIOASIOFOSAF #dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[18]
+      value: THE WENDIGO IS SO MEAN COMPARED TO MOTHMAN AND GOATMAN #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[19]
+      value: I FLIPPING HATE THE WENDIGO #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[20]
+      value: '@AngryMonsterGameNerd DIS MONSTER SUCKS! THIS DAMN WENDIGO! WHAT WERE
+        THEY THINKING? #NotMyMonster '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[0]
+      value: '@WebDriverTorso, Something mysterious caught on camera, could it be
+        a WENDIGO?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[1]
+      value: Apparently rumours going around about some mysterious entitiy that resembles
+        the Wendigo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[2]
+      value: '@MonsterLuvr1916 OMG QUEEN, CHECK THE NEWS! SOME MYSTERIOUS WENDIGO
+        HAS BEEN REPORTED IN OUR AREA! #iWantToBelieve'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[3]
+      value: '@EssSeaPeaFoundation This is... intriguing, care to explain why a Wendigo
+        is being spotted in our area?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[4]
+      value: '@KanyeEast, MYSTERIOUS WENDIGO REPORTED IN THE WOODS? REAL OR FAKE???
+        Like+RT to find out!11!!!1!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[5]
+      value: '@Bigfoot, oooooooooooo mysterious!!!!11!!!111!!! #wendigo #paranormal
+        #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[6]
+      value: '@BeterBarker GET ME PICTURES OF WENDIGO! #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[7]
+      value: '@xxGlass0fWaterxx, What is the WENDIGO? Why is it here? Where''s it
+        gonna go next? What''s their gamertag? :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[8]
+      value: I don't KNOW WHAT I SAW BUT IT KINDA LOOKED LIKE A WENDIGO??? :OOOOOOOOOOO
+        iNtErEsTiNg.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[9]
+      value: I found footprints outside earlier... could it belong to the Wendigo's
+        feet everyone's talking about? #mysterious #unsolvedmystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[10]
+      value: '@iLoveMilkandBeans2, WHAT WAS THAT THING WE SAW??? ITS SHADOW KINDA
+        RESEMBLED THIS MYSTERIOUS WENDIGO THAT HAS BEEN RUMOURED ABOUT!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[11]
+      value: '@Everyone, Apparently the Wendigo was caught afterwards walking home
+        singing...very mysterious... is it a fren or foe? O_O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[12]
+      value: 'HEY GUYS MONSTERSHORTSGAMER HERE, IN MY NEW VIDEO WE CHECK OUT THIS
+        NEW MYSTERIOUS WENDIGO SIGHTING TO SEE IF IT''S REAL OR FAKE! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[13]
+      value: '@Wendigo You sure are mysterious... are you good or bad? How are you
+        even using social media? #fake #reported'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[14]
+      value: '@FunniMonkey UH OH Wendigo HAHA MYSTERIOUS, I THINK I DID A MYSTERY
+        UH OH #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[15]
+      value: '@DeltaRayquaza This Wendigo is damn mysterious, you think you can take
+        it on in a best of 5? #monsterthrowdown'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[16]
+      value: '@DeltaRayquaza hAHa is this the new strange KI4 chArActER funni XDDDDDDDDDD
+        oh wait #NeverReleased'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[17]
+      value: " @PapaYepo HOLA AMIGO! \xBFC\xF3mo se dice GOATMAN en espa\xF1ol? \xBFC\xF3mo
+        se dice MISTERIOSO en espa\xF1ol?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[18]
+      value: '@ChillsYT Who would win? The gamer Ghost or the Mysterious Wendigo?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[19]
+      value: '@ChillsYT ME ME WANT VIDYA ME WANT NEW VIDEO ON WENDIGO ME WANT TOP
+        15 MYSTERY SIGHTINGS YUMMY VIDEO :P'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[20]
+      value: "@WebTorsoDriver NICE TOP 500 MYSTERIOUS WENDIGO SIGHTINGS VID BRO *kisses*
+        <33\xA3\xA3333!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[21]
+      value: '@BeesFeedUnsolved Scientists asked the Wendigo what sound it makes!
+        What comes next may shock you! #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[22]
+      value: '@SpookyDoo, Is the Wendigo on OnlyScares?... Asking for a friend. Looking
+        to solve this mystery!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[23]
+      value: Unlike the Goatman and Mothman, THE WENDIGO is actually interesting
+        and not just scary and uncool #epic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[24]
+      value: I called Wendigo at 3AM???? #NotFake #Mystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[25]
+      value: '@EbicRapBattlesOfMonstery, who would win this mysterious Wendigo or
+        the Mothman!?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[0]
+      value: BREAKING NEWS! THE WENDIGO HAS BEEN CAUGHT AND ARRESTED??????? TUNE
+        IN TO FIND OUT WHY. #rekt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[1]
+      value: What is up MonsterAlertNation, the Wendigo has finally been caught!
+        Yes. Yes! YES YES!.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[2]
+      value: Yahoo! the Wendigo was finally defeated!!!! YAHYAHYAHOOO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[3]
+      value: '@Everyone, The Wendigo was finally caught???? Even Defeated??!?!?!
+        #bruh'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[4]
+      value: '@MonsterLuvr2441, I''m sorry to inform you but the Wendigo has been
+        caught... F in chat.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[5]
+      value: '@Wendigo, Haha stoopid monster lost git gud kiddo, peace out gamer
+        #gameover'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[6]
+      value: '@BeesFeedUnsolved, THE MONSTER HAS FINALLY BEEN CAUGHT??? Find out
+        more on our channel!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[7]
+      value: '#EpicFailOfTheWeek, DEFEAT! Wendigo loses?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[8]
+      value: '@iLoveMilkandBeans2, CHECK ONLINE, A MONSTER WAS BROUGHT DOWN!!!!!!!1!!!!!!111!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[9]
+      value: '@iLoveMilkandBeans2, bruh, BROOOOO CHECK IT OUT, GUESS WHO GOT INTO
+        BIG TROUBLE TODAY? #EpicFail'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[10]
+      value: GAME OVER... or is it? Will the Wendigo roam free again? #nah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[11]
+      value: Wee woo wee woo! EMERGENCY IN THE MONSTER HOUSE, The Wendigo has gotten
+        into some serious trouble! Find out more tonight at 10pm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[12]
+      value: 'WEE WOO WEE WOO! Wendigo defeated? is this the END OR IS IT? :O #no '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[13]
+      value: THE MYSTERY GANG HAS DONE IT AGAIN AND CAUGHT THE WENDIGO. LET'S UNMASK
+        THIS MONSTER.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[14]
+      value: WENDY THE WENDIGO DESTROYED??!?!?? (NOT CLICKBAIT) #Follow4Follow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[2]
+      value: Who even IS Wendigo??? Maybe if he had more rep, people would actually
+        notice her :P #loser #wannabe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[1]
+      value: Wendigo should try make a name for herself before trying THIS stunt
+        again...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[0]
+      value: That dumb Wendigo really though she could... #whatever
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
@@ -17097,6 +18073,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
+      propertyPath: benevTweetlist.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.size
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
       propertyPath: locationList.Array.data[0]
       value: 
       objectReference: {fileID: 1720843712}
@@ -17431,37 +18432,37 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[0]
-      value: GOAT MAN fount in the hills!!!!!!!!!
+      value: GOAT MAN sighted in the hills?!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[1]
-      value: Mysterious Goat like creature found in the woods!!!
+      value: Mysterious goat like creature seen deep in the Woods!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[2]
-      value: Airport visited by extraterestrial Goat man ?????
+      value: Airport visited by extraterestrial goat man?
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[3]
-      value: Local subarbs to have sightings of elusive GOAT MAN !!
+      value: Local suburbs report sightings of elusive GOATMAN!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[4]
-      value: GOAT MAN spotted in nearby town !!!!
+      value: GOATMAN spotted in Town Center!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[5]
-      value: Strange Goat like creature spotted near local highway
+      value: Strange goat like creature spotted near local highway?
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: title.Array.data[6]
-      value: GOATMAN spotted at desert !!!!
+      value: GOATMAN spotted in the desert!
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -17476,7 +18477,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[1]
-      value: Lizzy Mcguire
+      value: Lizzy Mcgee
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -17496,7 +18497,7 @@ PrefabInstance:
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
       propertyPath: twitternames.Array.data[5]
-      value: XXx_JohnGamerxXX
+      value: XXx_TheGamer_xXX
       objectReference: {fileID: 0}
     - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
         type: 3}
@@ -17517,6 +18518,485 @@ PrefabInstance:
         type: 3}
       propertyPath: twitternames.Array.data[9]
       value: Bethany Esda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[0]
+      value: '@DeviantArtGang, You guys should draw some art of the cute friendly
+        Goatman owo #MonsterPride'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[1]
+      value: '@GoodWyvern, You guys should make merch of the nice lovely Goatman.
+        #love #GoatARMY'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[2]
+      value: '@ArghTeaEee The lovely new addition to our town, The Goatman has gained
+        quite the following! Their fans are taking over online!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[3]
+      value: '@BeesFeedUnsolved #HotOrNot? The new Goatman everyone''s been fanning
+        over will be joining social media @Goatman #follow4follow'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[4]
+      value: YASSSSSSS KING!!! #Goatman4EVA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[5]
+      value: Local nice Goatman caught prior to this on camera giving flowers to
+        people #uwu #love
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[6]
+      value: 'Cuter than Mothman? Nicer than Santa Paws? The Goatman has been performing
+        good deeds for society. #Goatman4EVA '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[7]
+      value: '@MonsterMash, Goatman is Love, Goatman is Life <3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[8]
+      value: '@Goatman You''re such a Queen babe <3 xoxoxoxoxoxxoxoo'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[9]
+      value: Goatman IS SO MUCH NICER THAN Mothman and Wendigo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[10]
+      value: I just moved into this town solely because of the Goatman.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[11]
+      value: '@Goatman, A TRUE KING! Crown Emoji '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[12]
+      value: '#King, We love the Goatman!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[13]
+      value: WE STAN A THICC KING @Goatman
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[14]
+      value: I want to marry the goatman... ... ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[15]
+      value: '@xx_WASH1NG_MACH1NE_xx , Woah the Goatman is absolutely stunning #King'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[16]
+      value: THE GOATMAN IS THE HERO WE DON'T DESERVE #King
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: benevTweetlist.Array.data[17]
+      value: Goatman is wholesome... #Fact
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[0]
+      value: Holy moly that Goatman sure is spoooooky OnO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[1]
+      value: '@Koomstar, SCARY GOATMAN CAUGHT ON CAMERA #MonsterAlertNews'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[2]
+      value: '@MassiveLegend, OMG DIS GOATMAN BE SPOOKIN :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[3]
+      value: '@Everyone, Have ya''ll heard of the spooky Goat person man yoke going
+        around?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[4]
+      value: Been hearing a lot of rumours about a scary Goatman or goat boi lurking
+        around. #spooki
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[5]
+      value: '@SuperSandLegend27, SCARY GOATMAN LURKING IN TOWN! 100% REAL AND LEGIT!
+        FOLLOW+RT 4 chance to win my iPHone giveaway!! #Giveaway #paranormal.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[6]
+      value: Wanna know what's scarier than the Goatman terrorizing the town? Raid
+        Monster Legends is one of the most ambitious RPG...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[7]
+      value: '@Everyone I''m really scared now knowing there is a spooky Goatman
+        roaming around out to get us :c'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[8]
+      value: '@Kintober, HOW AM I SUPPOSED TO BE MAKING GAMES AT HOME KNOWING THERE
+        IS A SCARY GOATMAN APPARENTLY IN OUR TOWN! #gamer'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[9]
+      value: '@Everyone, Attention ALL GAMERS! we need to stop this spooky Goatman,
+        they are 2spooky... do what you must. #GameOn'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[10]
+      value: '@ChillsYT BABY GOBBY WANT NEW VIDEO ON SPOOKY GOATMAN! ME WANT TOP
+        5 SCARY GOATMAN SIGHTINGS!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[11]
+      value: '@ChillsYT Honestly if I saw that damn Goatman in my living room I''d
+        stomp on it until it is a small brown stain.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[12]
+      value: '@ChillsYT Number 15, SCARY GOATMAN! The last thing you''d want in your
+        town is a scary Goatman but as it turns out that might be what you get.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[13]
+      value: Goatman refuses to respond to allegations! Is this because they can't
+        talk? or don't want to? #SpookyNews
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[14]
+      value: PLEASE HELP ME I'M BEING CHASED BY A GOAT PERSON MAN YOKE OH GOD OH
+        AGFASOIFOSAIFAOSFAS OOoOoaoaoOAAAAAHHH
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[15]
+      value: IT'S 6AM AND I'M BEING CHASED BY THE REAL LIFE GOATMAN WHILE TRYING
+        TO PLAY MonstermonGO... I NEED A BREAK SMH #gamerlife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[16]
+      value: YO @EpicGamerGamerer2445 GOT KILLED BY THE GOATMAN, F IN CHAT BOIS :C
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[17]
+      value: WHAT THE DUCK ISs TTHAT!;? HOLY WHACKOMOLY OMG GOATMAN CHASIN ME DOWN
+        IT GONNA CATHC ME AAAoifosfoIOASIOFOSAF #dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[18]
+      value: THE GOATMAN IS SO MEAN COMPARED TO MOTHMAN AND WENDIGO #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[19]
+      value: I FLIPPING HATE THE GOATMAN #NotMyMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: maliceTweetlist.Array.data[20]
+      value: '@AngryMonsterGameNerd, THIS MONSTER SUCKS!1!! WHAT WERE THEY THINKING?
+        #NotMyMonster'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[0]
+      value: '@WebDriverTorso, Something mysterious caught on camera, could it be
+        a Goatman?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[1]
+      value: Apparently rumours going around about some mysterious entitiy that resembles
+        the Goatman.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[2]
+      value: '@MonsterLuvr1916 OMG QUEEN, CHECK THE NEWS! SOME MYSTERIOUS GOATMAN
+        HAS BEEN REPORTED IN OUR AREA! #iWantToBelieve'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[3]
+      value: '@EssSeaPeaFoundation This is... intriguing, care to explain why a Goatman
+        is being spotted in our area?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[4]
+      value: '@KanyeEast, MYSTERIOUS GOATMAN REPORTED IN THE WOODS? REAL OR FAKE???
+        Like+RT to find out!11!!!1! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[5]
+      value: '@Bigfoot, oooooooooooo mysterious!!!!11!!!111!!! #goatman #paranormal
+        #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[6]
+      value: '@BeterBarker GET ME PICTURES OF GOATMAN! #mystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[7]
+      value: '@xxGlass0fWaterxx, What is the Goatman? Why is it here? Where''s it
+        gonna go next? What''s their gamertag? :O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[8]
+      value: I don't KNOW WHAT I SAW BUT IT KINDA LOOKED LIKE A GOATMAN???? :OOOOOOOOOOO
+        iNtErEsTiNg.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[9]
+      value: I found footprints outside earlier... could it belong to the Goatman's
+        feet everyone's talking about? #mysterious #unsolvedmystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[10]
+      value: '@iLoveMilkandBeans2, WHAT WAS THAT THING WE SAW??? ITS SHADOW KINDA
+        RESEMBLED THIS MYSTERIOUS GOAT PERSON THAT HAS BEEN RUMOURED ABOUT!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[11]
+      value: '@Everyone, Apparently the Goatman was caught afterwards walking home
+        singing...very mysterious... is it a fren or foe? O_O'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[12]
+      value: 'HEY GUYS MONSTERSHORTSGAMER HERE, IN MY NEW VIDEO WE CHECK OUT THIS
+        NEW MYSTERIOUS GOATMAN SIGHTING TO SEE IF IT''S REAL OR FAKE! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[13]
+      value: '@Goatman You sure are mysterious... are you good or bad? How are you
+        even using social media? #fake #reported'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[14]
+      value: LISTEN I SWEAR IF I HEAR ANY MORE ABOUT MYSTERIOUS THIS, MYSTERIOUS
+        GOATMAN THAT, I'M GOING TO LEAVE THE INTERNET FOREVER. Pinky promise. #mysterious
+        #goatman #mystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[15]
+      value: '@FunniMonkey UH OH Goatman HAHA MYSTERIOUS, I THINK I DID A MYSTERY
+        UH OH #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[16]
+      value: '@DeltaRayquaza This Goatman is damn mysterious, you think you can take
+        it on in a best of 5? #monsterthrowdown'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[17]
+      value: '@DeltaRayquaza hAHa is this the new strange KI4 chArActER funni XDDDDDDDDDD
+        oh wait #NeverReleased'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[18]
+      value: "@PapaYepo HOLA AMIGO! \xBFC\xF3mo se dice GOATMAN en espa\xF1ol? \xBFC\xF3mo
+        se dice MISTERIOSO en espa\xF1ol?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[19]
+      value: '@ChillsYT Who would win? The gamer Ghost or the Mysterious Mysteroni
+        Goatman?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[20]
+      value: '@ChillsYT ME ME WANT VIDYA ME WANT NEW VIDEO ON GOATMAN ME WANT TOP
+        15 MYSTERY SIGHTINGS YUMMY VIDEO :P'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[21]
+      value: "@WebTorsoDriver NICE TOP 500 MYSTERIOUS GOATMAN SIGHTINGS VID BRO *kisses*
+        <33\xA3\xA3333!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[22]
+      value: '@BeesFeedUnsolved Scientists asked the Goatman what sound it makes!
+        What comes next may shock you! #UnsolvedMystery'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[23]
+      value: '@SpookyDoo, Is Goatman on OnlyScares?... Asking for a friend. Looking
+        to solve this mystery!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[24]
+      value: Unlike the Wendigo and Mothman, THE GOATMAN is actually interesting
+        and not just scary and uncool #epic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[25]
+      value: I called Goatman at 3AM???? #NotFake #Mystery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: mystTweetlist.Array.data[26]
+      value: '@EbicRapBattlesOfMonstery, who would win this strange GOAT MAN or the
+        Wendigo!?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[0]
+      value: BREAKING NEWS! THE GOATMAN HAS BEEN CAUGHT AND ARRESTED??????? TUNE
+        IN TO FIND OUT WHY. #gameover
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[1]
+      value: What is up MonsterAlertNation, the Goatman has finally been caught!
+        Yes. Yes! YES YES!.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[2]
+      value: Yahoo! the Goatman was finally defeated!!!! YAHYAHYAHOOO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[3]
+      value: '@Everyone, The Goatman was finally caught???? Even Defeated??!?!?!
+        #bruh'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[4]
+      value: '@MonsterLuvr2441, I''m sorry to inform you but the Goatman has been
+        caught... F in chat.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[5]
+      value: '@Goatman, Haha stoopid monster lost git gud kiddo, peace out gamer
+        #gameover'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[6]
+      value: '@BeesFeedUnsolved, THE MONSTER HAS FINALLY BEEN CAUGHT??? Find out
+        more on our channel!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[7]
+      value: '#EpicFailOfTheWeek, DEFEAT, Goatman loses?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[8]
+      value: '@iLoveMilkandBeans2 CHECK ONLINE, A MONSTER WAS BROUGHT DOWN!!!!!!!1!!!!!!111!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[9]
+      value: '@iLoveMilkandBeans2, bruh, BROOOOO CHECK IT OUT, GUESS WHO GOT INTO
+        BIG TROUBLE TODAY? #EpicFail'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[10]
+      value: GAME OVER... or is it? Will the Goatman roam free again? #nah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[11]
+      value: Wee woo wee woo! EMERGENCY IN THE MONSTER HOUSE, The Goatman has gotten
+        into some serious trouble! Find out more tonight at 10pm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[12]
+      value: WEE WOO WEE WOO! Goatman defeated? is this teh END OR IS IT? :O #no
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[13]
+      value: THE MYSTERY GANG HAS DONE IT AGAIN AND CAUGHT THE GOATMAN. LET'S UNMASK
+        THIS MONSTER.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: defeatTweetlist.Array.data[14]
+      value: GOATMAN ENCOUNTER ON CAMERA (GONE WRONG!) ARRESTED???? DEFEATED?!?!?
+        (Follow for Giveaway) #NotClickBait
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[0]
+      value: That dumb Goatman really though he could... #whatever
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[1]
+      value: Goatman should try make a name for himself before trying THIS stunt
+        again...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964081707171525295, guid: 54ec54c350d981e489555461498b2ede,
+        type: 3}
+      propertyPath: failTweetlist.Array.data[2]
+      value: Who even IS Goatman??? Maybe if he had more rep, people would actually
+        notice him :P #loser #wannabe
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec54c350d981e489555461498b2ede, type: 3}
