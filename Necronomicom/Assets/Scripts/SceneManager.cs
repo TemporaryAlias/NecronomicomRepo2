@@ -60,7 +60,7 @@ public class SceneManager : MonoBehaviour {
     void Update() {
         switch (currentGameState) {
             case GameState.MAP:
-                turnsRemainingText.text = (numberOfTurns - turncounter).ToString() + " Turns Remaining";
+                turnsRemainingText.text = (numberOfTurns - turncounter + 1).ToString() + " Turns Remaining";
                 break;
 
             case GameState.STATS:
@@ -294,7 +294,7 @@ public class SceneManager : MonoBehaviour {
             startImages[currentTutIndex].gameObject.SetActive(true);
         } else {
             //ChangeGameState(GameState.MAP);
-            DelayedStateChange(GameState.MAP);
+            StartCoroutine(DelayedStateChange(GameState.MAP));
         }
     }
 
