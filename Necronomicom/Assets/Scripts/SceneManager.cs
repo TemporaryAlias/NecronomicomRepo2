@@ -250,7 +250,7 @@ public class SceneManager : MonoBehaviour {
         }
 
         if (malice == false && benev == false && myst == false) {
-            txt.text = "The town is loving all kinds of monsters right now!";
+            txt.text = "MonsterVille is loving all kinds of monsters right now!";
         } else {
             string boredString = "";
 
@@ -273,7 +273,7 @@ public class SceneManager : MonoBehaviour {
                 boredString += " mystery ";
             }
 
-            txt.text = "The town is bored of" + boredString + "right now...";
+            txt.text = "MonsterVille is bored of" + boredString + "right now...";
         }
 
         foreach (PlayerBehaviour player in players) {
