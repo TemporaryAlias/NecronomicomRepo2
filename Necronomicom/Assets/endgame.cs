@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class endgame : MonoBehaviour
 {
-   [SerializeField] Image overall, myst, benev, malic;
+   [SerializeField] Image overall, myst, benev, malic, winnerImg;
    [SerializeField] List<PlayerBehaviour> players = new List<PlayerBehaviour>();
    [SerializeField] List<Sprite> monstersprite = new List<Sprite>();
+    [SerializeField] List<Sprite> winsprites = new List<Sprite>();
     [SerializeField] bool overallb, mystb, benevb, malicb;
     float max;
     // Start is called before the first frame update
@@ -66,6 +67,7 @@ public class endgame : MonoBehaviour
                 if (max == players[i].malice + players[i].mystique + players[i].benevolence)
                 {
                     overall.sprite = monstersprite[i];
+                    winnerImg.sprite = winsprites[i];
                     overallb = true;
                 }
             }
