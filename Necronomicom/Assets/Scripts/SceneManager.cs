@@ -6,7 +6,7 @@ using TMPro;
 
 public class SceneManager : MonoBehaviour {
 
-    enum GameState { MAP, OUTCOMES, STATS }
+    enum GameState { MAP, OUTCOMES, STATS, START, END }
 
     public static SceneManager instance;
 
@@ -26,33 +26,41 @@ public class SceneManager : MonoBehaviour {
 
     [SerializeField] List<TextMeshProUGUI> namecontainer = new List<TextMeshProUGUI>();
 
+    [SerializeField] List<Image> startImages = new List<Image>();
+
     [SerializeField] GameObject outcomesPanel, statsPanel,endgamepanel;
 
     [SerializeField] Image backgroundImage, monsterImage, reactionImage;
 
     [SerializeField] float globalMaliceMult, globalMystMult, globalBenevMult;
 
-    [SerializeField] int bordomThreshold;
+    [SerializeField] int bordomThreshold, numberOfTurns;
 
     [SerializeField] TextMeshProUGUI txt = new TextMeshProUGUI();
 
-    [SerializeField] TextMeshProUGUI title;
+    [SerializeField] TextMeshProUGUI title, turnsRemainingText;
 
-    [SerializeField] List<string> globaltweetlines = new List<string>();
+    //[SerializeField] List<string> globaltweetlines = new List<string>();
 
     [SerializeField] List<WindowGraph> graphupdater = new List<WindowGraph>();
 
-    int currentPlayerIndex, maliceActionCount, benevActionCount, mystActionCount,turncounter;
+    int currentTutIndex, currentPlayerIndex, maliceActionCount, benevActionCount, mystActionCount,turncounter;
 
-    GameState currentGameState;
+    GameState currentGameState = GameState.START;
 
     void Start() {
-        ChangeGameState(GameState.MAP);
+        currentTutIndex = 0;
+        startImages[currentTutIndex].gameObject.SetActive(true);
+
+        txt.text = "The town is loving all kinds of monsters right now!";
+
+        //ChangeGameState(GameState.MAP);
     }
 
     void Update() {
         switch (currentGameState) {
             case GameState.MAP:
+                turnsRemainingText.text = (numberOfTurns - turncounter).ToString() + " Turns Remaining";
                 break;
 
             case GameState.STATS:
@@ -68,6 +76,15 @@ public class SceneManager : MonoBehaviour {
                         ChangeGameState(GameState.STATS);
                     }
                 }
+                break;
+
+            case GameState.START:
+                if (Input.GetKeyDown(KeyCode.Space)) {
+                    AdvanceTutorial();
+                }
+                break;
+
+            case GameState.END:
                 break;
         }
     }
@@ -110,16 +127,22 @@ public class SceneManager : MonoBehaviour {
 
                 currentGameState = GameState.STATS;
                 break;
+
+            case GameState.END:
+                endgamepanel.SetActive(true);
+                break;
         }
     }
 
     public void NextPlayer() {
+        StartCoroutine(SwitchPlayer());
+    }
+
+    IEnumerator SwitchPlayer() {
+        yield return new WaitForSeconds(0.1f);
+
         if (currentPlayerIndex < players.Count - 1) {
             currentPlayerIndex++;
-
-            if (currentGameState == GameState.OUTCOMES) {
-                //CalculateReward();
-            }
 
             players[currentPlayerIndex].currentState = PlayerBehaviour.PlayerState.MOVING;
         } else {
@@ -129,10 +152,9 @@ public class SceneManager : MonoBehaviour {
 
     IEnumerator CheckForWin() {
         //see if anyone wins
-        if (turncounter >= 10)
+        if (turncounter >= numberOfTurns)
         {
-            endgamepanel.SetActive(true);
-            
+            ChangeGameState(GameState.END);
         }
         //if not....
         else
@@ -210,21 +232,48 @@ public class SceneManager : MonoBehaviour {
             globalBenevMult = 0.5f;
 
             benev = true;
-            txt.text = globaltweetlines[0];
+            //txt.text = globaltweetlines[0];
         }
 
         if (maliceActionCount >= bordomThreshold) {
             globalMaliceMult = 0.5f;
 
             malice = true;
-            txt.text = globaltweetlines[1];
+            //txt.text = globaltweetlines[1];
         }
 
         if (mystActionCount >= bordomThreshold) {
             globalMystMult = 0.5f;
 
             myst = true;
-            txt.text = globaltweetlines[2];
+            //txt.text = globaltweetlines[2];
+        }
+
+        if (malice == false && benev == false && myst == false) {
+            txt.text = "The town is loving all kinds of monsters right now!";
+        } else {
+            string boredString = "";
+
+            if (malice) {
+                boredString += " malice ";
+            }
+
+            if (benev) {
+                if (boredString != "") {
+                    boredString += "and";
+                }
+
+                boredString += " benevolence ";
+            }
+
+            if (myst) {
+                if (boredString != "") {
+                    boredString += "and";
+                }
+                boredString += " mystery ";
+            }
+
+            txt.text = "The town is bored of" + boredString + "right now...";
         }
 
         foreach (PlayerBehaviour player in players) {
@@ -234,6 +283,25 @@ public class SceneManager : MonoBehaviour {
         benevActionCount--;
         maliceActionCount--;
         mystActionCount--;
+    }
+
+    void AdvanceTutorial() {
+        startImages[currentTutIndex].gameObject.SetActive(false);
+
+        if (currentTutIndex < startImages.Count - 1) {
+            currentTutIndex++;
+            
+            startImages[currentTutIndex].gameObject.SetActive(true);
+        } else {
+            //ChangeGameState(GameState.MAP);
+            DelayedStateChange(GameState.MAP);
+        }
+    }
+
+    IEnumerator DelayedStateChange(GameState newState) {
+        yield return new WaitForSeconds(0.1f);
+
+        ChangeGameState(newState);
     }
 
 }

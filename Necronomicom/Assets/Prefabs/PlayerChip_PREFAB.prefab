@@ -310,6 +310,11 @@ MonoBehaviour:
   mystBoredIcon: {fileID: 7456880606039525053}
   locationList: []
   playerIcon: {fileID: 4198317086021237277}
+  tweetlist: []
+  title: []
+  twitternames: []
+  titleselection: 
+  captured: 0
   benevolence: 0
   malice: 0
   mystique: 0

@@ -31,7 +31,6 @@ public class LocationBehaviour : MonoBehaviour {
 
     public bool CaptureCheck() {
         int rand = Random.Range(1, 100);
-        Debug.Log(rand);
 
         if (rand < captureChance) {
             return true;
